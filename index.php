@@ -14,6 +14,10 @@ include __DIR__ . "/data.php";
     <p>
         <?php echo $prova->getInfoCibo() ?>
     </p>
+    <p>
+        <?php echo $provaCuccia->getInfoCuccia() ?>
+
+    </p>
     
 </body>
 </html>
