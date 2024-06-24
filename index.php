@@ -12,7 +12,7 @@ include __DIR__ . "/data.php";
 </head>
 <body>
     <p>
-        <?php echo $prova->getNome() ?>
+        <?php echo $prova->getInfoCibo() ?>
     </p>
     
 </body>
