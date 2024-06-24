@@ -1,3 +1,8 @@
+<?php
+include __DIR__ . "/data.php";
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +11,9 @@
     <title>PHP-OOP-2</title>
 </head>
 <body>
+    <p>
+        <?php echo $prova->getNome() ?>
+    </p>
     
 </body>
 </html>
