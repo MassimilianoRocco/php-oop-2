@@ -11,11 +11,12 @@ class Product{
     public $img;
 
     //CONSTRUCTOR
-    public function __construct($id, $name, $price, Category $category){
+    public function __construct($id, $name, $price, Category $category, $img){
         $this->id = $id;
         $this->name = $name;
         $this->price = $price;
         $this->category = $category;
+        $this->img = $img;
     }
 
     //OTHER FUNCTIONS

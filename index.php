@@ -39,7 +39,7 @@ include __DIR__ . "/data.php";
                         ?>
                     </div>
                     <div class="img_box">
-                        
+                        <?php echo "<img src='". $object->img ."' alt='item_img' </img>"?>
                     </div>
 
 
